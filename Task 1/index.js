@@ -1,5 +1,4 @@
 import data from './events.json' assert { type: "json" };
-
 const search = document.getElementById('serachbox');
 search.addEventListener('keyup',(e)=>{
     const event = e.target.value.toLowerCase();
