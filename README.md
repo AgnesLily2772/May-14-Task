@@ -6,7 +6,7 @@ From the below repo link of files, you can pick any two and complete them with a
 
    My Deployed URL - https://agneslily4.netlify.app/
 
-2. Resume - https://github.com/rvsp/HTML-CSS/blob/master/Tasks/task-resume.jpeg
+2. Responsive Resume - https://github.com/rvsp/HTML-CSS/blob/master/Tasks/task-resume.jpeg
 
    My GitHub URL - https://github.com/AgnesLily2772/May-14-Task/tree/main/Task%202
 
