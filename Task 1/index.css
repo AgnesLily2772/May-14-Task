@@ -1,0 +1,67 @@
+h2{
+    text-align: center;
+}
+body {
+    font-family:cursive;
+    background-color:white;
+}
+.fulldiv{
+    display: grid;
+    grid-template-columns:500px 500px 500px;
+}
+.mydiv{
+    border-radius: 15px;
+    border: 2px solid royalblue;
+    padding-top: 20px;
+    margin:20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background-color:#fbfcfa;
+}
+.myimage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.heading{
+    color: white;
+    background-color: navy;
+    padding: 20px;
+    width:auto;
+}
+.myvenue{
+    text-align: center;
+    margin-top: 10px;
+}
+.mytype{
+    font-size: 13px;
+}
+.mysearch{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 490px;
+    padding: 10px;
+    width:500px;
+    border-radius: 20px;
+}
+
+@media screen and (max-device-width: 412px) {
+    .fulldiv{
+        grid-template-columns: auto;
+    }
+    .mydiv{
+        border-radius: 15px;
+        padding-top: 10px;
+        margin:10px;
+        background-color:#fbfcfa;
+        display: grid;
+        grid-template-columns: auto auto;
+        font-size: 10px;
+    }
+    .mysearch{
+        margin-left: 0px;
+        width: 100%;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 20px;
+    } 
+} 
